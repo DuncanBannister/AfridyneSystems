@@ -127,6 +127,11 @@ a.navbar-brand.header-white:hover {
   background-color: #1D2634;
 }
 
+<<<<<<< HEAD
+#services{
+  background-color: #1D2634;
+}
+=======
 @media screen and (min-width: 768px){
 
 
@@ -156,8 +161,7 @@ a.navbar-brand.header-white:hover {
     border-radius: 3px;
   }
 
-#services{
-  background-color: #1D2634;
-}
+
+>>>>>>> ad5d8170a53047db3a7b194e3247fd8855bbf943
 
 
