@@ -33,24 +33,32 @@ a.navbar-brand.header-white:hover {
 }
 
   #section1 {
+    height:500px;
       padding: 50px 0;
       padding-bottom: 0;
         
   }
 
+  #price{
+    height: 100vh;
+     padding: 50px 25px;
+  }
+
   #section2 {
+     height: 100vh;
     padding: 50px 25px;
     
   }
 
   #section3 {
+     height: 100vh;
     padding: 50px 0;
     
   }
 
-.section{
+/*.section{
   height: 500px;
-}
+} */
 
   .section .header{
     font-size: 32px;
@@ -88,9 +96,11 @@ a.navbar-brand.header-white:hover {
   }
 
   #footer{
+     height: 100vh;
     padding: 50px 0;
     background-color: #1D2634;
     padding-bottom: 0;
+    position: relative;
   }
 
   #footer .contact{
@@ -148,6 +158,13 @@ a.navbar-brand.header-white:hover {
     font-size: 2.3rem;
     border-radius: 3px;
   }
+
+  .bottom-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 
 
