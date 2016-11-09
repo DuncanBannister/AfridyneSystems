@@ -78,12 +78,20 @@ a.navbar-brand.header-white:hover {
     color:#E6F0F3;
   }
 
-  .box{
+.box{
       text-align: center;
       padding: 20px 40px;
       margin: 20px auto;
       width: 92%;
       border-radius: 5px;
+      background-color:#E5EFF3;
+  }
+  .box2{
+      text-align: center;
+      padding: 20px 40px;
+      margin: 20px auto;
+      width: 80%;
+      border-radius: -500px;
       background-color:#E5EFF3;
   }
 
@@ -119,6 +127,8 @@ a.navbar-brand.header-white:hover {
   background-color: #1D2634;
 }
 
-
+#services{
+  background-color: #1D2634;
+}
 
 
