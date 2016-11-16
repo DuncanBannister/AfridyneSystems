@@ -45,7 +45,8 @@ a.navbar-brand.header-white:hover {
   }
 
   #section2 {
-     height: 400px;
+    background-color: #1D2634;
+     height: auto;
     padding: 50px 25px;
     
   }
