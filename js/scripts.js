@@ -1,26 +1,24 @@
-var pTop;
+$(function(){
+  //code to check if jquery works
+  console.log("Jquert is working when content loads nicely ey..");
 
-$(document).ready(function(){/* affix the navbar after scroll below header */
-    $('#nav').affix({
-          offset: {
-            top: $('header').height()-$('#nav').height()
-          }
-    });	
+   $(".navbar-nav li a[href^='#']").on('click', function(e) {
+       // prevent default anchor click behavior
+       e.preventDefault();
 
-    /* highlight the top nav as scrolling occurs */
-    $('body').scrollspy({ target: '#nav' })
+       // store hash
+       var hash = this.hash;
 
-    /* smooth scrolling for scroll to top */
-    $('.scroll-top').click(function(){
-      $('body,html').animate({scrollTop:0},1000);
-    });
+       // animate
+       $('html, body').animate({
+           scrollTop: $(this.hash).offset().top
+         }, 300, function(){
 
-    /* smooth scrolling for nav sections */
-    $('#nav .navbar-nav li>a').click(function(){
-      var link = $(this).attr('href');
-      var posi = $(link).offset().top+20;
-      $('body,html').animate({scrollTop:posi},800);
-    });
+           // when done, add hash to url
+           // (default click behaviour)
+           window.location.hash = hash;
+         });
 
-});
+        });
 
+})
