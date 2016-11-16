@@ -114,7 +114,7 @@ a.navbar-brand.header-white:focus {
   }
 
   #footer{
-     height: 100vh;
+     height: 60vh;
     padding: 50px 0;
     background-color: #1D2634;
     padding-bottom: 0;
@@ -132,7 +132,7 @@ a.navbar-brand.header-white:focus {
 
   #map{
     width: 100%;
-    height: 200px;
+    height: 406px;
   }
 
 
