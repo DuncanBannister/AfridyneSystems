@@ -13,6 +13,9 @@ body {
 /* Custom page CSS
 -------------------------------------------------- */
 
+/* ------------------------- NAV BAR STYLES------------------------- */
+
+
 .navbar{
   background-color: #1D2634;
   border-bottom: 2px solid #E6F0F3;
@@ -31,6 +34,12 @@ a.navbar-brand.header-white:hover {
   background-color: transparent;
     color: #E6F0F3;
 }
+
+a.navbar-brand.header-white:focus {
+  outline:none;
+}
+
+/* ------------------------- NAV BAR STYLES------------------------- */
 
   #section1 {
     height:400px;
@@ -221,6 +230,16 @@ a.navbar-brand.header-white:hover {
   background-color: red;
   color: blue;
 }
+
+/* ------------------------- PRICING SECTION ------------------------- */
+.p-container{
+  width: 95%;
+}
+
+/* ------------------------- PRICING SECTION ------------------------- */
+
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
 
