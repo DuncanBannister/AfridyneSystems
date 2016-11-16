@@ -100,10 +100,15 @@ a.navbar-brand.header-white:focus {
       text-align: center;
       padding: 5px 20px;
       margin: 10px auto;
-      width: 72%;
+      width: 85%;
       border-radius: 5px;
       background-color:#E5EFF3;
   }
+
+  .box2 span{
+    font-size: 2.5rem !important;
+  } 
+
   .box2{
       text-align: center;
       padding: 20px 40px;
