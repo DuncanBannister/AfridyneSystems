@@ -98,9 +98,9 @@ a.navbar-brand.header-white:focus {
 
 .box{
       text-align: center;
-      padding: 20px 40px;
-      margin: 20px auto;
-      width: 92%;
+      padding: 5px 20px;
+      margin: 10px auto;
+      width: 72%;
       border-radius: 5px;
       background-color:#E5EFF3;
   }
