@@ -45,7 +45,7 @@ a.navbar-brand.header-white:focus {
 
 /* ------------------------- NAV BAR STYLES------------------------- */
 
-  #section1 {
+  #home {
     height:400px;
     padding: 50px 0;
     padding-bottom: 0;
@@ -139,7 +139,7 @@ a.navbar-brand.header-white:focus {
   }
 
   #footer{
-     height: 100vh;
+    height: 550px;
     padding: 50px 0;
     background-color: #1D2634;
     padding-bottom: 0;
@@ -147,7 +147,7 @@ a.navbar-brand.header-white:focus {
   }
 
   #footer .contact{
-    height:150px;
+    height:150px; 
   }
 
   .top-border{
@@ -157,15 +157,14 @@ a.navbar-brand.header-white:focus {
 
   #map{
     width: 100%;
-    height: 406px;
+    height: 350px;
+    padding-left:40px;
   }
 
-
 #myCarousel .item > img {
-
   margin: 0 auto;
   width: 100%;
-    height: 400px;
+  height: 400px;
 }
 
 
@@ -180,11 +179,10 @@ a.navbar-brand.header-white:focus {
     top: 13%;
     padding-bottom: 30px;
     text-align: left;
-
 }
 
-.carousel-caption h3{
-width: 190px;
+.carousel-caption .c-header{
+    width: 190px;
     font-size: 3rem;
     /* background-color: #137CCC; */
     border-radius: 4px;
@@ -262,9 +260,6 @@ width: 190px;
   text-align: center;
 }
 
-.p-container{
-
-}
 
 /* ------------------------- PRICING SECTION ------------------------- */
 
@@ -317,6 +312,7 @@ kbd {
     border: solid thick black;
     width: 200px;
 }
+
 .quickNav{
     margin-left:10px;
 }
