@@ -97,7 +97,7 @@ a.navbar-brand.header-white:focus {
   }
 
 .box{
-      text-align: center;
+    
       padding: 5px 20px;
       margin: 10px auto;
       width: 85%;
@@ -105,13 +105,14 @@ a.navbar-brand.header-white:focus {
       background-color:#E5EFF3;
   }
 
-  .box img{
-    
+  .box .box-header{
+    text-align: center;
+    font-size: 3.5rem;
   }
 
-  .box span{
-    font-size: 2.5rem !important;
-  } 
+    .box .box-content{
+      
+  }
 
   .box2{
       text-align: center;
