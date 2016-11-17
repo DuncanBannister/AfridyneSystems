@@ -252,60 +252,90 @@ a.navbar-brand.header-white:focus {
 
 /* ------------------------- LINUX PAGE ------------------------- */
 
-
- .linuxCode {
+.linuxCode {
         font-family: menlo,monaco,consolas,courier new,monospace;
         width:100%
-    }
+}
+.linuxParagraph {
+    color:white;
+    font-weight:bold;
+}
+#linuxSection{
+    padding: 60px 0;
+    padding-bottom: 0;
+}
+.linuxHeader{
+    font-size:4em;
+    font-weight: bold;
+    color:white;
+}
+kbd {
+    display: inline-block;
+    margin: 0 .1em;
+    padding: .1em .6em;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 1.4;
+    color: #242729;
+    text-shadow: 0 1px 0 #FFF;
+    background-color: #e1e3e5;
+    border: 1px solid #adb3b9;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(12,13,14,0.2),0 0 0 2px #FFF inset;
+    white-space: nowrap;
+}
 
-    p {
-        color:white;
-        font-weight:bold;
-    }
+.sidebar{
+    position: fixed;
+    top: 90px;
+    left: 0;
+    background: white;
+    background: -webkit-linear-gradient(left, #C2D1DD, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #C2D1DD, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #C2D1DD, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, #C2D1DD, white); /* Standard syntax */
+    font-color: black;
+    font-weight: bold;
+    border: solid thick black;
+    width: 200px;
+}
+.quickNav{
+    margin-left:10px;
+}
 
-    #linuxSection{
-        padding: 60px 0;
-        padding-bottom: 0;
-    }
-    
-    h1{
-        font-size:4em;
-        font-weight: bold;
-        color:white;
-    }
-    kbd {
-        display: inline-block;
-        margin: 0 .1em;
-        padding: .1em .6em;
-        font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
-        font-size: 11px;
-        line-height: 1.4;
-        color: #242729;
-        text-shadow: 0 1px 0 #FFF;
-        background-color: #e1e3e5;
-        border: 1px solid #adb3b9;
-        border-radius: 3px;
-        box-shadow: 0 1px 0 rgba(12,13,14,0.2),0 0 0 2px #FFF inset;
-        white-space: nowrap;
-    }
+.navSmall{
+    position: fixed;
+    top: 90px;
+    left: -7px;
+    background: #137CCC;
+    font-color: black;
+    cursor:pointer;
+    opacity: 0.4;
+}
 
-    .sidebar{
-        position: fixed;
-        top: 90px;
-        left: 0;
-        background: white;
-        background: -webkit-linear-gradient(left, #C2D1DD, white); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(left, #C2D1DD, white); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(left, #C2D1DD, white); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(left, #C2D1DD, white); /* Standard syntax */
-        font-color: black;
-        font-weight: bold;
-        border: solid thick black;
-        width: 200px;
-    }
-    .quickNav{
-        margin-left:10px;
-    }
+.navSmallActive{
+    left: 193px;
+}
+
+.navSmallMenu{
+    position: fixed;
+    top: 90px;
+    left: -200px;
+    background: white;
+    background: -webkit-linear-gradient(left, #C2D1DD, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #C2D1DD, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #C2D1DD, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, #C2D1DD, white); /* Standard syntax */
+    font-color: black;
+    font-weight: bold;
+    border: solid thick black;
+    width: 200px;
+}
+
+.navSmallMenuActive{
+    left: 0;
+}
+ 
 /* ------------------------- LINUX PAGE ------------------------- */
 
 
