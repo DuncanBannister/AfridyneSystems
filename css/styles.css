@@ -125,8 +125,15 @@ a.navbar-brand.header-white:focus {
       list-style-type: none;
   }
 
+
+   .box .box-content ul li{
+  cursor: pointer;
+    
+    /*font-size: 2.2rem;*/
+    }
      .box .box-content ul li:hover{
     color: #137CCC;
+    
     /*font-size: 2.2rem;*/
     }
 
@@ -412,6 +419,13 @@ kbd {
 #myPriceCarousel  .carousel-control.left {
     left: -100px;
     color: #137CCC;
+}
+
+.myText{
+      width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px 10px;
 }
 /*.carousel-control.right {
     right: -100px;
