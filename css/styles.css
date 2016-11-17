@@ -251,18 +251,23 @@ a.navbar-brand.header-white:focus {
 /* ------------------------- PRICING SECTION ------------------------- */
 
 /* ------------------------- LINUX PAGE ------------------------- */
+
+
  .linuxCode {
         font-family: menlo,monaco,consolas,courier new,monospace;
         width:100%
     }
+
     p {
         color:white;
         font-weight:bold;
     }
+
     #linuxSection{
         padding: 60px 0;
         padding-bottom: 0;
     }
+    
     h1{
         font-size:4em;
         font-weight: bold;
