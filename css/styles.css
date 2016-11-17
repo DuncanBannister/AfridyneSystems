@@ -97,22 +97,33 @@ a.navbar-brand.header-white:focus {
   }
 
 .box{
-    
       padding: 5px 20px;
       margin: 10px auto;
-      width: 85%;
+      width: 90%;
       border-radius: 5px;
       background-color:#E5EFF3;
   }
 
   .box .box-header{
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
   }
 
     .box .box-content{
-      
+      text-align: center;
   }
+
+   .box .box-content ul{
+      padding: 0;
+      font-size: 1.8rem;
+      list-style-type: none;
+  }
+
+     .box .box-content ul li:hover{
+    color: #137CCC;
+    /*font-size: 2.2rem;*/
+    }
 
   .box2{
       text-align: center;
