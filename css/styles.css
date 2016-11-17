@@ -263,6 +263,9 @@ a.navbar-brand.header-white:focus {
   text-align: center;
 }
 
+.pricingBack{
+  background-color:silver;
+}
 
 .priceSep{
   color:white;
@@ -295,7 +298,7 @@ a.navbar-brand.header-white:focus {
   background: -moz-linear-gradient(left, black, #1D2634, black); /* For Firefox 3.6 to 15 */
   background: linear-gradient(left, black, #1D2634, black); /* Standard syntax */
   color:white;
-  border: solid 20px white;
+  border: solid 20px silver;
   margin-top: 50px;
   height:300px;
   border-radius:25px;
