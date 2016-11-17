@@ -187,6 +187,7 @@ a.navbar-brand.header-white:focus {
     font-size: 3rem;
     /* background-color: #137CCC; */
     border-radius: 4px;
+    margin-bottom: 20px;
     padding: 10px 15px;
     background-color: rgba(8, 103, 1814, 0.7);
 }
@@ -195,10 +196,11 @@ a.navbar-brand.header-white:focus {
     padding: 7px;
     color: black;
     width: auto;
-    font-size: 2.3rem;
+    font-size: 2rem;
     background-color: #fff;
     background-color: rgba(255,255,255,0.7);
     border-radius: 3px;
+    margin-top: 20px;
   }
   
   #services{
@@ -262,6 +264,42 @@ a.navbar-brand.header-white:focus {
 }
 
 
+.priceSep{
+  color:white;
+  width:70%;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.pricingCols> h5 {
+  vertical-align: middle;
+}
+
+#myPriceCarousel{
+  width: 85%;
+  height: 400px;
+}
+
+.pricecar{
+  height:400px;
+}
+
+.pricingCarousel{
+  background-image: none !important;
+}
+
+.pricingContainer{
+  background-color:#1D2634;
+  background: -webkit-linear-gradient(left, black, #1D2634, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, black, #1D2634, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, black, #1D2634, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(left, black, #1D2634, black); /* Standard syntax */
+  color:white;
+  border: solid 20px white;
+  margin-top: 50px;
+  height:300px;
+  border-radius:25px;
+}
 /* ------------------------- PRICING SECTION ------------------------- */
 
 /* ------------------------- LINUX PAGE ------------------------- */
@@ -352,6 +390,16 @@ kbd {
 }
  
 /* ------------------------- LINUX PAGE ------------------------- */
+.social{
+  margin-top: 15px;
+}
+
+.social img{
+  cursor: pointer;
+  margin: 5px 15px;
+
+}
+
 
 
 
