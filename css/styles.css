@@ -400,6 +400,26 @@ kbd {
 }
 
 
+#myPriceCarousel .carousel-control.right {
+    right: -100px;
+    color: #137CCC;;
+}
+
+#myPriceCarousel  .carousel-control.left {
+    left: -100px;
+    color: #137CCC;
+}
+/*.carousel-control.right {
+    right: -100px;
+    left: auto;
+}
+
+.carousel-control.left {
+    left: -100px;
+    left: auto;
+}*/
+
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
