@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
 
+/* images to get :
+
+*/
+
 html,
 body {
   height: 100%;
@@ -135,7 +139,7 @@ a.navbar-brand.header-white:focus {
   }
 
   #footer{
-     height: 60vh;
+     height: 100vh;
     padding: 50px 0;
     background-color: #1D2634;
     padding-bottom: 0;
@@ -185,7 +189,7 @@ width: 190px;
     /* background-color: #137CCC; */
     border-radius: 4px;
     padding: 10px 15px;
-    background-color: rgba(8, 103, 1814, 0.6);
+    background-color: rgba(8, 103, 1814, 0.7);
 }
 
 .carousel-caption p{
@@ -194,7 +198,7 @@ width: 190px;
     width: auto;
     font-size: 2.3rem;
     background-color: #fff;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.7);
     border-radius: 3px;
   }
   
