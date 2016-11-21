@@ -52,27 +52,17 @@ a.navbar-brand.header-white:focus {
         
   }
 
-  #price{
-    height: auto;
-     padding: 50px 25px;
-  }
-
-  #section2 {
+  #services {
     background-color: #1D2634;
      height: auto;
     padding: 50px 25px;
     
   }
 
-  #section3 {
-     height: 400px;
-    padding: 50px 0;
-    
+  #about {
+         height: auto;
+      padding: 50px 20px;  
   }
-
-/*.section{
-  height: 500px;
-} */
 
   .section .header{
     font-size: 32px;
@@ -80,7 +70,7 @@ a.navbar-brand.header-white:focus {
   }
 
   .section .para{
-    font-size: 20px;
+     font-size: 1.4rem;
     padding-top: 30px;
   }
 
@@ -105,7 +95,7 @@ a.navbar-brand.header-white:focus {
       margin: 10px auto;
       width: 90%;
       border-radius: 5px;
-       border: 2px solid blue;
+          padding-bottom: 15px;
       background-color:#E5EFF3;
   }
 
@@ -121,13 +111,14 @@ a.navbar-brand.header-white:focus {
 
    .box .box-content ul{
       padding: 0;
-      font-size: 1.8rem;
+      font-size: 1.7rem;
       list-style-type: none;
   }
 
 
    .box .box-content ul li{
   cursor: pointer;
+  margin: 5px 0;
     
     /*font-size: 2.2rem;*/
     }
@@ -146,20 +137,28 @@ a.navbar-brand.header-white:focus {
       background-color:#E5EFF3;
   }
 
-  #footer{
-    height: 550px;
+  #contact{
+    height: auto;
     padding: 50px 0;
     background-color: #1D2634;
-    padding-bottom: 0;
     position: relative;
   }
 
-  #footer .contact{
+  #contact .contact{
     height:150px; 
   }
 
+  #contact button{
+  width:100%;
+    margin-top: 15px;
+  }
+
+  #contact .spec-pad{
+    padding: 6px;
+  }
+
   .top-border{
-    height: 35px;
+      height: 35px;
      border-top: 2px solid #E6F0F3;
   }
 
@@ -174,12 +173,6 @@ a.navbar-brand.header-white:focus {
   width: 100%;
   height: 400px;
 }
-
-
-@media screen and (min-width: 768px){
-
-}
-
 
 .carousel-caption {
     right: 12%;
@@ -290,6 +283,11 @@ a.navbar-brand.header-white:focus {
   height: 400px;
 }
 
+#small-carousel{
+    width: 85%;
+    height: 425px;
+}
+
 .pricecar{
   height:400px;
 }
@@ -360,6 +358,7 @@ kbd {
     font-weight: bold;
     border: solid thick black;
     width: 200px;
+    margin-left:10px;
 }
 
 .quickNav{
@@ -401,13 +400,12 @@ kbd {
  
 /* ------------------------- LINUX PAGE ------------------------- */
 .social{
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .social img{
   cursor: pointer;
-  margin: 5px 15px;
-
+  margin: 5px 5px;
 }
 
 
@@ -427,28 +425,226 @@ kbd {
     border-radius: 5px;
     padding: 10px 10px;
 }
-/*.carousel-control.right {
-    right: -100px;
-    left: auto;
+
+.hidden-map-large{
+  display:block;
 }
 
-.carousel-control.left {
-    left: -100px;
-    left: auto;
-}*/
+.hidden-map{
+  display:none;
+}
 
+  #small-carousel{
+      display:none;
+    }
 
+    #footer {
+      overflow: hidden;
+        height: 100px;
+        background-color: #fff;
+    }
 
+    #footer span{
+      position: absolute;
+      top: 45px;
+      font-size: 1.2rem;
+    }
+
+    .logo-box{
+      position: relative;
+       cursor: pointer;
+    }
+
+    #footer a{
+      color: black;
+    }
+    
+    #footer img{
+      position: absolute;
+      top:-50px;
+    }
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
+    .hidden-map-large{
+      display:none;
+    }
+
+    .hidden-map{
+    display:block;
+  }
+
+    #map {
+    padding: 0 0;
+  }
+
+  #contact {
+        padding: 50px 45px;
+    }
+
+    #map{
+      margin-top:20px;
+    }
+
+    #contact .spec-pad {
+    padding: 0px;
+  }
+
+    .navbar-toggle .icon-bar {
+      background-color: #fff;
+    }
+
+    .navbar-toggle {
+      border: 1px solid #fff;
+  }
+
+    #myPriceCarousel .carousel-control.left {
+      display: none;
+  }
+
+    #myPriceCarousel .carousel-control.right {
+      display: none;
+  }
+
+  
+    #small-carousel .carousel-control.left {
+      display: none;
+  }
+
+    #small-carousel .carousel-control.right {
+      display: none;
+  }
+  
+
+   .navbar .navbar-nav {
+      float: left;
+  }
+
+  .pricecar span{
+    font-size: 1.4rem;
+  }
+
+  .pricecar h5{
+    font-size: 1.4rem;
+  }
+
+  .carousel-caption .c-header {
+    font-size: 2rem;
+    padding: 0px 15px;
+  }
+
+  .carousel-caption p {
+    font-size: 1.5rem;
+ }
+
+    #myPriceCarousel{
+      display: none;
+    }
+
+    #small-carousel{
+      display:block;
+    }
+
+    #small-carousel .pricingContainer {
+    margin-top: 35px;
+  }
+
+    .pricingContainer {
+    height: 360px;
+    }
+
+    .social img {
+    cursor: pointer;
+    margin: 5px 3px;
+  }
+
+  .footer-header{
+    text-align: center;
+  }
 
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
+    .hidden-map-large{
+      display:none;
+    }
 
+    .hidden-map{
+    display:block;
+  }
+
+  #contact {
+      padding: 50px 45px;
+  }
+
+    #map {
+        margin-top:20px;
+        padding: 0 0;
+    }
+
+    #contact .spec-pad {
+      padding: 0px;
+  }
+
+  .navbar-toggle .icon-bar {
+      background-color: #fff;
+    }
+
+    .navbar-toggle {
+      border: 1px solid #fff;
+  }
+
+  .navbar .navbar-nav {
+      float: left;
+  }
+
+    #myPriceCarousel .carousel-control.left {
+      display: none;
+  }
+
+    #myPriceCarousel .carousel-control.right {
+      display: none;
+  }
+
+      #small-carousel .carousel-control.left {
+      display: none;
+  }
+
+    #small-carousel .carousel-control.right {
+      display: none;
+  }
+
+
+    .carousel-caption .c-header {
+      padding: 0px 15px;
+    }
+
+   .footer-header{
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
+   .social img {
+    
+      margin: 5px 3px;
+  }
+
+   .navbar .navbar-nav {
+      float: left;
+  }
+
+  #myPriceCarousel .carousel-control.left {
+      display: none;
+  }
+
+    #myPriceCarousel .carousel-control.right {
+      display: none;
+  }
+
+   .carousel-caption .c-header {
+    padding: 0px 15px;
+  }
+
 
 }
 
